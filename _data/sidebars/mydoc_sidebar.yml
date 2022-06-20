@@ -68,7 +68,7 @@ entries:
       url: /mydoc_code_samples.html
       output: web, pdf
 
-    - title: Gazebo Simulation & The Mechanism behind
+    - title: Gazebo Simulation The Mechanism behind
       url: /mydoc_themes.html
       output: web, pdf
 
@@ -76,7 +76,7 @@ entries:
     url: /mydoc_build_arguments.html
     output: web, pdf
 
-  - title: How to contribure?
+  - title: How to contribure
     output: web, pdf
     folderitems:
 
@@ -97,7 +97,7 @@ entries:
           url: /tag_navigation.html
           output: web
 
-- title: My Other Blogs and Articles?
+- title: My Other Blogs and Articles
     output: web, pdf
     folderitems:
 
