@@ -97,7 +97,7 @@ entries:
           url: /tag_navigation.html
           output: web
 
-- title: My Other Blogs and Articles
+  - title: My Other Blogs and Articles
     output: web, pdf
     folderitems:
 
