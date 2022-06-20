@@ -68,7 +68,7 @@ entries:
       url: /mydoc_code_samples.html
       output: web, pdf
 
-    - title: Gazebo Simulation : The Mechanism behind
+    - title: Gazebo Simulation & The Mechanism behind
       url: /mydoc_themes.html
       output: web, pdf
 
