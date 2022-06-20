@@ -111,8 +111,8 @@ description: "This project website explains about the ROSNET project along with 
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-  url: https://bishalj054.github.io/
-  baseurl: /Research_Project_Website
+#  url: https://bishalj054.github.io/
+#  baseurl: /Research_Project_Website
 
 
 github: [metadata]
