@@ -32,7 +32,7 @@ entries:
       output: web, pdf
       type: homepage
 
-  - title: Source Code and Installation
+  - title: Source Code and Installation : hello 
     output: web, pdf
     folderitems:
 
