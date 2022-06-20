@@ -105,7 +105,6 @@ sidebars:
 - home_sidebar
 - mydoc_sidebar
 - product1_sidebar
-- product2_sidebar
 - other
 
 description: "This project website explains about the ROSNET project along with the technical details involved with this including the steps and code."
