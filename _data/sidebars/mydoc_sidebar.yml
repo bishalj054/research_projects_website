@@ -99,41 +99,38 @@ entries:
 
   - title: My Other Blogs and Articles
     output: web, pdf
-
-      subfolders:
-      - title: Blogs
-        url: /mydoc_tag_archives_overview.html
+    subfolders:
+    - title: Blogs
+      url: /mydoc_tag_archives_overview.html
+      output: web
+      subfolderitems:
+      - title: Blog1 
         output: web
-        subfolderitems:
-        - title: Blog1 
-          output: web
 
-        - title: Blog2
-          url: /tag_formatting.html
-          output: web
-          
-      subfolders:
-      - title: Articles
-        url: /mydoc_tag_archives_overview.html
+      - title: Blog2
+        url: /tag_formatting.html
         output: web
-        subfolderitems:
-        - title: Article1 
-          output: web
-
-        - title: Article2
-          url: /tag_formatting.html
-          output: web
           
-      subfolders:
-      - title: Research Papers
-        url: /mydoc_tag_archives_overview.html
+    - title: Articles
+      url: /mydoc_tag_archives_overview.html
+      output: web
+      subfolderitems:
+      - title: Article1 
         output: web
-        subfolderitems:
-        - title: Paper1 
-          output: web
 
-        - title: Paper2
-          url: /tag_formatting.html
-          output: web
+      - title: Article2
+        url: /tag_formatting.html
+        output: web
           
+    - title: Research Papers
+      url: /mydoc_tag_archives_overview.html
+      output: web
+      subfolderitems:
+      - title: Paper1 
+        output: web
+
+      - title: Paper2
+        url: /tag_formatting.html
+        output: web
+         
 # Copyright 2021 Google LLC
