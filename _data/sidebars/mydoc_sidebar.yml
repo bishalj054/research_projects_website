@@ -126,15 +126,16 @@ entries:
         - title: Article2
           url: /tag_formatting.html
           output: web
-
-    - title: Research Papers
-      url: /mydoc_tag_archives_overview.html
-      output: web
-
+          
       subfolders:
-      - title: Paper1 
+      - title: Research Papers
+        url: /mydoc_tag_archives_overview.html
         output: web
-        subfolderitems:
+
+#      subfolders:
+        - title: Paper1 
+          output: web
+          subfolderitems:
 
         - title: Paper2
           url: /tag_formatting.html
