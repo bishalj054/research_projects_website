@@ -105,10 +105,9 @@ entries:
       url: /mydoc_tag_archives_overview.html
       output: web
 
-      subfolders:
+      subfolderitems:
       - title: Blog1 
         output: web
-        subfolderitems:
 
       - title: Blog2
         url: /tag_formatting.html
@@ -118,10 +117,9 @@ entries:
       url: /mydoc_tag_archives_overview.html
       output: web
 
-      subfolders:
+      subfolderitems:
       - title: Article1 
         output: web
-        subfolderitems:
 
       - title: Article2
         url: /tag_formatting.html
@@ -131,10 +129,9 @@ entries:
       url: /mydoc_tag_archives_overview.html
       output: web
 
-      subfolders:
+      subfolderitems:
       - title: Paper1 
         output: web
-        subfolderitems:
 
       - title: Paper2
         url: /tag_formatting.html
