@@ -1,0 +1,143 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Jekyll Doc Theme
+  version: 6.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /mydoc_introduction.html
+      output: web, pdf
+      
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+  - title: Source Code and Installation
+    output: web, pdf
+    folderitems:
+
+    - title: Source code
+      url: /mydoc_about_ruby_gems_etc.html
+      output: web, pdf
+
+    - title: Installation
+      url: /mydoc_install_jekyll_on_mac.html
+      output: web, pdf
+
+  - title: Tutorials
+    output: web, pdf
+
+    folderitems:
+    - title: About ROS2
+      url: /mydoc_adding_tooltips.html
+      output: web, pdf
+
+    - title: ROS2 Transport
+      url: /mydoc_alerts.html
+      output: web, pdf
+
+    - title: Wireshark Analysis of ROS2 Communiation
+      url: /mydoc_icons.html
+      output: web, pdf
+
+    - title: Linux Networking Stack
+      url: /mydoc_images.html
+      output: web, pdf
+
+    - title: Filters and qdisc for Linux
+      url: /mydoc_code_samples.html
+      output: web, pdf
+
+    - title: Gazebo Simulation The Mechanism behind
+      url: /mydoc_themes.html
+      output: web, pdf
+
+  - title: Trouble Shooting
+    url: /mydoc_build_arguments.html
+    output: web, pdf
+
+  - title: How to contribure
+    output: web, pdf
+    folderitems:
+
+    - title: Steps Involved
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: Code of Ethics
+        output: web
+        subfolderitems:
+
+        - title: Rule set 1
+          url: /tag_formatting.html
+          output: web
+
+        - title: Rule set 2
+          url: /tag_navigation.html
+          output: web
+
+  - title: My Other Blogs and Articles
+    output: web, pdf
+    folderitems:
+
+    - title: Blogs
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: Blog1 
+        output: web
+        subfolderitems:
+
+        - title: Blog2
+          url: /tag_formatting.html
+          output: web
+
+    - title: Articles
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: Article1 
+        output: web
+        subfolderitems:
+
+        - title: Article2
+          url: /tag_formatting.html
+          output: web
+
+    - title: Research Papers
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: Paper1 
+        output: web
+        subfolderitems:
+
+        - title: Paper2
+          url: /tag_formatting.html
+          output: web
+          
+# Copyright 2021 Google LLC
