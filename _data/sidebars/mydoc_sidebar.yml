@@ -99,7 +99,7 @@ entries:
 
   - title: My Other Blogs and Articles
     output: web, pdf
-    folderitems:
+    subfolders:
 
     - title: Blogs
       url: /mydoc_tag_archives_overview.html
