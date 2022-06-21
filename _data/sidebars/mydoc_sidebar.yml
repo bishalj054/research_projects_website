@@ -101,27 +101,25 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Blogs
-      url: /mydoc_tag_archives_overview.html
-      output: web
-
       subfolders:
-      - title: Blog1 
+      - title: Blogs
+        url: /mydoc_tag_archives_overview.html
         output: web
         subfolderitems:
+        - title: Blog1 
+          output: web
 
         - title: Blog2
           url: /tag_formatting.html
           output: web
-
-    - title: Articles
-      url: /mydoc_tag_archives_overview.html
-      output: web
-
+          
       subfolders:
-      - title: Article1 
+      - title: Articles
+        url: /mydoc_tag_archives_overview.html
         output: web
         subfolderitems:
+        - title: Article1 
+          output: web
 
         - title: Article2
           url: /tag_formatting.html
