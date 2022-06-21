@@ -110,9 +110,9 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Blog2
-          url: /tag_formatting.html
-          output: web
+      - title: Blog2
+        url: /tag_formatting.html
+        output: web
 
     - title: Articles
       url: /mydoc_tag_archives_overview.html
@@ -123,9 +123,9 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Article2
-          url: /tag_formatting.html
-          output: web
+      - title: Article2
+        url: /tag_formatting.html
+        output: web
 
     - title: Research Papers
       url: /mydoc_tag_archives_overview.html
@@ -136,8 +136,8 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Paper2
-          url: /tag_formatting.html
-          output: web
+      - title: Paper2
+        url: /tag_formatting.html
+        output: web
           
 # Copyright 2021 Google LLC
