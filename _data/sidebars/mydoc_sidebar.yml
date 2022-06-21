@@ -80,9 +80,9 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Steps Involved
-      url: /mydoc_tag_archives_overview.html
-      output: web
+#    - title: Steps Involved
+ #     url: /mydoc_tag_archives_overview.html
+  #    output: web
 
       subfolders:
       - title: Code of Ethics
@@ -100,11 +100,6 @@ entries:
   - title: My Other Blogs and Articles
     output: web, pdf
     folderitems:
-    
-    -title: 
-     url: 
-     output: 
-     
      subfolders:
      - title: Blogs
        url: /mydoc_tag_archives_overview.html
