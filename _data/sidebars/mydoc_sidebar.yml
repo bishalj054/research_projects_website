@@ -101,9 +101,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Steps Involved
-      url: /mydoc_tag_archives_overview.html
-      output: web    
+
     
       subfolders:
       - title: Blogs
