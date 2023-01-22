@@ -39,11 +39,11 @@ Following are the features of ROS2 that have made it omnipresent for real-time r
 
 ROS2 is developed on top of the DDS ( Data Distribution System ). The architecture of ROS2 is shown in figure \ref{fig2.3.a}. The ROS2 middleware sits between the application layer and the operating system. The middleware comprises rmw, i.e., ROS2 middleware that abstracts away the DDS layer, rcl, i.e., ROS2 client libraries that provide ROS2 applications the libraries for development and interfacing with rmw. The DDS acts as the heart of rmw, which avail the transport mechanism, serialization \& deserialization of ROS2 traffic and the QoS setups for the ROS2 applications. 
 
-![Alt text](./ros2architecture_thesis.drawio.svg)
+![Alt text](./ros2architecture_thesis.drawio.svg){:height="36px" width="36px"}
 
 *ROS2 architecture.*
 
-![Alt text](./DDS_based_ROS2_Communication.drawio.svg){width=50%}
+![Alt text](./DDS_based_ROS2_Communication.drawio.svg)
 
 *DDS-based ROS2 communication.*
 
@@ -56,11 +56,11 @@ The DDS-based architecture of ROS2 uses RTPS ( Real Time Publish Subscribe )  pr
 
 However, there are methods of communication between the ROS2 nodes based on request-response, namely service, parameters, and actions. The publish-subscribe-based method involving the topic concept is the most commonly used method for ROS2 node communication. This has been shown in figure \ref{fig2.3.b}. A topic acts as a bus for publishing and subscribing a data of a particular type. Each node publishes messages of a particular data type over a particular topic. Each topic has a name associated with it to which any number of publishers can publish, and subscribers can subscribe. 
 
-![Alt text](./FIG2.drawio.svg){width=70%}
+![Alt text](./FIG2.drawio.svg){:height="36px" width="36px"}
 
 *Topics in ROS2.*
 
-![Alt text](./Fig3.drawio.svg){width=70%}
+![Alt text](./Fig3.drawio.svg){:height="36px" width="36px"}
 
 *Dynamic Discovery in ROS2 with one new subscriber.*
 
