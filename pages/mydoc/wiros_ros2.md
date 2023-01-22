@@ -42,7 +42,7 @@ ROS2 is developed on top of the DDS ( Data Distribution System ). The architectu
 
 *ROS2 architecture.*
 
-![Alt text](./ros2architecture_thesis.drawio.svg)
+![Alt text](./DDS_based_ROS2_Communication.drawio.svg)
 
 *DDS-based ROS2 communication.*
 
