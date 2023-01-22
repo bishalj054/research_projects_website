@@ -7,15 +7,7 @@ folder: mydoc
 
 ## Overview
 
-[![Alt text](https://img.youtube.com/vi/-mO4hRNeS_8/0.jpg)](https://www.youtube.com/watch?v=-mO4hRNeS_8)
-
-[![Alt text](https://img.youtube.com/vi/2CTRzw5gy-8/0.jpg)](https://www.youtube.com/watch?v=2CTRzw5gy-8)
-
-[![Alt text](https://img.youtube.com/vi/QTSVZx-DObI/0.jpg)](https://www.youtube.com/watch?v=QTSVZx-DObI)
-
-
-[![Alt text](https://img.youtube.com/vi/fDD9EEjYJnA/0.jpg)](https://www.youtube.com/watch?v=fDD9EEjYJnA)
-
+[![Alt text](https://youtu.be/_w7xB8eT8B8/0.jpg)](https://youtu.be/_w7xB8eT8B8)
 
 
 The instructions here are geared towards technical writers working on documentation. You may have a team of one or more technical writers working on documentation for multiple projects. You can use this same theme to author all of your documentation for each of your products. The theme is built to accommodate documentation for multiple products on the same site.
