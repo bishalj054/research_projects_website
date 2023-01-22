@@ -9,7 +9,9 @@ summary: This project aims at introducting network level Quality of Service to t
 
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
 
-## Build the Theme : Bishal Jaiswal
+## WiROS : A QoS Software Solution for ROS2 in a Wi-Fi network
+
+WiROS is the first outcome of ROSNET project. It aims at introducing network level QoS over a Wi-Fi network. More about his can be found in the section below. 
 
 Follow these instructions to build the theme.
 
