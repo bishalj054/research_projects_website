@@ -12,6 +12,7 @@ folder: mydoc
 ROS ( Robot Operating System ) is a set of software libraries and tools for building robot applications. It acts as an open-source robotic communication middleware suite. However, ROS was not a framework for real-time use cases. The involvement of the intermediate ROS Master node/system between the communicating ROS server node( s ) and ROS client node( s ), following the process of lookup and registration for discovery, added to the communication latency and caused significant shortcomings for any real-time application. Similarly, the use of communication protocols such as XML-RPC for the discovery of server and client node( s ) or systems( s ) and the use of TCPROS as the default transport protocol for data transfer in the ROS framework has not made it eligible for any real-time use cases. 
 
 ![Alt text](./ROS1_Communication.drawio.svg)
+
 *ROS Communication framework: The following ROS communication, also referred to as ROS1 communication, is dependent upon the intermediate master node and communicates over XML/RPC and TCPROS transport protocol.*
 
 ### ROS2 development and its popularity
@@ -42,7 +43,7 @@ ROS2 is developed on top of the DDS ( Data Distribution System ). The architectu
 
 *ROS2 architecture.*
 
-![Alt text](./DDS_based_ROS2_Communication.drawio.svg)
+![Alt text](./DDS_based_ROS2_Communication.drawio.svg){width=50%}
 
 *DDS-based ROS2 communication.*
 
