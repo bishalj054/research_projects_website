@@ -7,14 +7,14 @@ folder: mydoc
 
 ## ROS2: A Communication middleware Suite for Real-Time Application}
 
-### ROS and its shortcomings}
+### ROS and its shortcomings
 
 ROS ( Robot Operating System ) is a set of software libraries and tools for building robot applications. It acts as an open-source robotic communication middleware suite. However, ROS was not a framework for real-time use cases. The involvement of the intermediate ROS Master node/system between the communicating ROS server node( s ) and ROS client node( s ), following the process of lookup and registration for discovery, added to the communication latency and caused significant shortcomings for any real-time application. Similarly, the use of communication protocols such as XML-RPC for the discovery of server and client node( s ) or systems( s ) and the use of TCPROS as the default transport protocol for data transfer in the ROS framework has not made it eligible for any real-time use cases. 
 
 ![Alt text](./ROS1_Communication.drawio.svg)
 *ROS Communication framework: The following ROS communication, also referred to as ROS1 communication, is dependent upon the intermediate master node and communicates over XML/RPC and TCPROS transport protocol.*
 
-### ROS2 development and its popularity}
+### ROS2 development and its popularity
 
 However, the popularity of the ROS framework due to its modular and richer libraries for robotics applications development and the requirement of its use for real-time applications led to the development of DDS ( Data Distribution System ) based ROS2. 
 
@@ -46,7 +46,7 @@ ROS2 is developed on top of the DDS ( Data Distribution System ). The architectu
 
 The ROS2 applications sit at the system's application layer comprised of ROS2 nodes. The nodes exchange data via topics, services, actions, or parameters. A node can be publisher( s ) of data flow( s ), subscriber( s ), or both. Each node corresponds to single or multiple operations in a robotic application.
 
-Publish-Subscribe model, Topics and Dynamic Discovery}
+### Publish-Subscribe model, Topics and Dynamic Discovery
 
 The DDS-based architecture of ROS2 uses RTPS ( Real Time Publish Subscribe )  protocol as the communication protocol. The RTPS protocol involves communication between publisher( s ) and subscriber( s ) endpoints. The publisher publishes the data, and the subscriber subscribes to it. Each participant ROS2 node can have multiple publishers and subscribers. 
 
