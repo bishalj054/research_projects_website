@@ -5,7 +5,7 @@ permalink: wiros_ros2.html
 folder: mydoc
 ---
 
-## ROS2: A Communication middleware Suite for Real-Time Application}
+## ROS2: A Communication middleware Suite for Real-Time Application
 
 ### ROS and its shortcomings
 
@@ -19,6 +19,7 @@ ROS ( Robot Operating System ) is a set of software libraries and tools for buil
 However, the popularity of the ROS framework due to its modular and richer libraries for robotics applications development and the requirement of its use for real-time applications led to the development of DDS ( Data Distribution System ) based ROS2. 
 
 ![Alt text](./FIG13.drawio.svg)
+
 *ROS2 real-time use cases and its popularity.*
 
 
@@ -38,9 +39,11 @@ Following are the features of ROS2 that have made it omnipresent for real-time r
 ROS2 is developed on top of the DDS ( Data Distribution System ). The architecture of ROS2 is shown in figure \ref{fig2.3.a}. The ROS2 middleware sits between the application layer and the operating system. The middleware comprises rmw, i.e., ROS2 middleware that abstracts away the DDS layer, rcl, i.e., ROS2 client libraries that provide ROS2 applications the libraries for development and interfacing with rmw. The DDS acts as the heart of rmw, which avail the transport mechanism, serialization \& deserialization of ROS2 traffic and the QoS setups for the ROS2 applications. 
 
 ![Alt text](./ros2architecture_thesis.drawio.svg)
-*ROS2 architecture. *
+
+*ROS2 architecture.*
 
 ![Alt text](./ros2architecture_thesis.drawio.svg)
+
 *DDS-based ROS2 communication.*
 
 
@@ -53,9 +56,11 @@ The DDS-based architecture of ROS2 uses RTPS ( Real Time Publish Subscribe )  pr
 However, there are methods of communication between the ROS2 nodes based on request-response, namely service, parameters, and actions. The publish-subscribe-based method involving the topic concept is the most commonly used method for ROS2 node communication. This has been shown in figure \ref{fig2.3.b}. A topic acts as a bus for publishing and subscribing a data of a particular type. Each node publishes messages of a particular data type over a particular topic. Each topic has a name associated with it to which any number of publishers can publish, and subscribers can subscribe. 
 
 ![Alt text](./FIG2.drawio.svg)
+
 *Topics in ROS2.*
 
 ![Alt text](./Fig3.drawio.svg)
+
 *Dynamic Discovery in ROS2 with one new subscriber.*
 
 The publisher and subscribers start communicating based on the dynamic discovery mechanism enabled by DDS-RTPS. For other generic client-server pairs, endpoints must know each other's socket address, i.e., port number and IP address, to establish communication between them. However, at ROS2, with the help of dynamic discovery, two nodes publishing or subscribing to the same topic can start exchanging data streams without specific knowledge of the application stream's port number or the host system's IP address. The underlying knowledge of the socket address is defined and communicated via RTPS protocol between all the communication endpoints. 
