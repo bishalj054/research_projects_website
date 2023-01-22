@@ -1,7 +1,7 @@
 ---
 title: Wi-ROS Overview
 sidebar: mydoc_sidebar
-permalink: mydoc_introduction.html
+permalink: wiros_overview.html
 folder: mydoc
 ---
 
