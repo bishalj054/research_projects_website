@@ -23,13 +23,13 @@ entries:
     output: web, pdf
     folderitems:
     
-    - title: Get started
+    - title: ROSNET Overview
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Introduction
-      url: /mydoc_introduction.html
+    - title: WiROS Overview
+      url: /wiros_overview.html
       output: web, pdf
       
 
