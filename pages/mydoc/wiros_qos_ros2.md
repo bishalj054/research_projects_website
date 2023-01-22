@@ -73,4 +73,4 @@ We are working with the foxy version of ROS2 with FastRTPS DDS implementations. 
 
 ![Alt text](./DDS_Vendors.drawio.svg)
 
-* DDS vendors.*
+*DDS vendors.*
