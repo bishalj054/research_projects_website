@@ -27,5 +27,3 @@ Some of the more prominent features of this theme include the following:
 ## Getting started
 
 To get started, see [ROS2 Transport][mydoc_alerts].
-
-{% include links.html %}
