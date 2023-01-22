@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Wi-ROS Overview
 sidebar: mydoc_sidebar
 permalink: mydoc_introduction.html
 folder: mydoc
