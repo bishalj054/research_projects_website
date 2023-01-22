@@ -19,12 +19,10 @@ The Robot Operating System ( ROS ) is a widely used messaging middleware in the 
 ### Latency-Critical Application over Wi-Fi and its QoS requirement
 
 Latency-critical applications such as remote driving, remote surgery, or any critical control-based application require high reliability and lower transmission latency of the application data. Such applications usually involve the exchange of sensors' and actuators' messages over the wireless network between the remotely connected ROS2-based endpoints. It is necessary to ensure the QoS requirements of such applications of the ROS2 framework set in a wireless network, e.g., a Wi-Fi network. However, the existing QoS options with ROS2 enable reliability QoS assurance; no QoS options ensure low-latency QoS. Most of the QoS that it assures are application-level QoS.
-\begin{figure}[t]
-\centering
-\includegraphics[width=1.0\linewidth]{problem_statement_1.drawio.pdf}
-\caption{Traffic Confluence between two topics' stream at NIC buffer. The larger colored block represents a larger frame size. The green frame is latency critical, and the red frame is non-latency-critical. }
-\label{fig1.1}
-\end{figure}
+
+![Alt text](./controllers_brief.svg)
+<img src="./controllers_brief.svg">
+
 Furthermore, it provides such QoS at the loss of bandwidth. Bandwidth can be a significant bottleneck during remote operations over Wi-Fi or other wireless networks. It is essential to consider the network-level parameters and bottleneck to ensure the end-to-end QoS requirements for such use cases. Hence, assuring the network level QoS in a bandlimited Wi-Fi network is essential for the latency-critical data flow. ROS2 exchange data traffic in the form of topics. Each topic corresponds to a data flow containing sensors' or actuators' messages. 
 
 
