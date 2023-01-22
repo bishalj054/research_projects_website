@@ -10,8 +10,6 @@ The following video presentation gives an overview of the project.
 
 [![Alt text](https://img.youtube.com/vi/_w7xB8eT8B8/0.jpg)](https://youtu.be/_w7xB8eT8B8)
 
-To get started, see [WiROS Overview][wiros_overview].
-{% include links.html %}
 
 ### WHAT IS ROS2?
 The Robot Operating System ( ROS ) is a widely used messaging middleware in the robotics industry, but it is not limited to it. It is used for coordinating and communicating between different systems and devices across various industries for multiple use cases. The DDS ( Data Distribution System ) based ROS2 ( Robot Operating System 2 ) uses RTPS ( Real-Time Publish-Subscribe ) protocol as its communication wire. Dynamic discovery of pub-sub ( Publish-Subscribe ) endpoints and an option to set up various application-level QoS ( Quality of Services ) are a few features that the DDS implementation with ROS2 has enabled. The features and QoS offered by ROS2 are briefly discussed in chapter \ref{chap2}. Such features, including rich QoS setup options, have increased their popularity in being used for reliable and low latency, i.e., latency-critical applications over the wireless network. 
@@ -34,3 +32,6 @@ It has been found that a larger frame-sized packet corresponding to a topic's da
 ### Problem Statement
 
 To put it in a statement, ``In a bandlimited network, two or more contending topics' traffic suffer because of each other in terms of latency, throughput, and reliability among other networks and application-level QoS." This statement can be realized based on the results of experiment 1 in chapter \ref{chap5}. 
+
+To get started, see [WiROS Overview][wiros_overview].
+{% include links.html %}
