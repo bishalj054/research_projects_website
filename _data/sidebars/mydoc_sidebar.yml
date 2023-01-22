@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: ROSNET
-  version: Version 0.1
+  product: WiROS
+  version: Version 1.0
   folders:
 
   - title:
@@ -22,15 +22,16 @@ entries:
   - title: Overview
     output: web, pdf
     folderitems:
+    
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
 
     - title: Introduction
       url: /mydoc_introduction.html
       output: web, pdf
       
-    - title: Get started
-      url: /index.html
-      output: web, pdf
-      type: homepage
 
   - title: Source Code and Installation
     output: web, pdf
