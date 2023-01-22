@@ -55,11 +55,11 @@ The DDS-based architecture of ROS2 uses RTPS ( Real Time Publish Subscribe )  pr
 
 However, there are methods of communication between the ROS2 nodes based on request-response, namely service, parameters, and actions. The publish-subscribe-based method involving the topic concept is the most commonly used method for ROS2 node communication. This has been shown in figure \ref{fig2.3.b}. A topic acts as a bus for publishing and subscribing a data of a particular type. Each node publishes messages of a particular data type over a particular topic. Each topic has a name associated with it to which any number of publishers can publish, and subscribers can subscribe. 
 
-![Alt text](./FIG2.drawio.svg=100x)
+![Alt text](./FIG2.drawio.svg =100x)
 
 *Topics in ROS2.*
 
-![Alt text](./Fig3.drawio.svg=100x)
+![Alt text](./Fig3.drawio.svg =100x)
 
 *Dynamic Discovery in ROS2 with one new subscriber.*
 
