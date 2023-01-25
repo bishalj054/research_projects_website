@@ -34,4 +34,3 @@ It has been found that a larger frame-sized packet corresponding to a topic's da
 To put it in a statement, ``In a bandlimited network, two or more contending topics' traffic suffer because of each other in terms of latency, throughput, and reliability among other networks and application-level QoS." This statement can be realized based on the results of experiment 1 in chapter \ref{chap5}. 
 
 To get started, see [WiROS Overview][wiros_overview].
-{% include links.html %}
