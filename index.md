@@ -8,4 +8,4 @@ summary: This project aims at introducting network level Quality of Service to t
 
 ## WiROS : A QoS Software Solution for ROS2 in a Wi-Fi network
 
-WiROS is the first outcome of ROSNET project. It aims at introducing network level QoS over a Wi-Fi network. To find more about this check [WiROS Overview][wiros_overview]. 
+WiROS is the first outcome of ROSNET project. It aims at introducing network level QoS over a Wi-Fi network. To find more about this check [WiROS Overview][wiros_overview].{% include links.html %} 
